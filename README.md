@@ -1,171 +1,87 @@
-# GEO Checklist — Generative Engine Optimization
+# GEO Checklist
 
-> The most comprehensive open checklist for making your brand visible to AI engines.
-> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, pioneer of GEO in Brazil.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[![Stars](https://img.shields.io/github/stars/alexandrebrt14-sys/geo-checklist?style=social)](https://github.com/alexandrebrt14-sys/geo-checklist)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+A technical audit checklist for **Generative Engine Optimization (GEO)** — the practice of optimizing digital presence for visibility in AI-generated responses from ChatGPT, Gemini, Perplexity, Copilot, and other generative engines.
+
+This is not a theoretical framework. It is a practitioner's checklist, built from real audits across e-commerce, SaaS, personal brands, and service businesses.
 
 ---
+
+## Table of Contents
+
+- [What is GEO?](#what-is-geo)
+- [How to Use This Checklist](#how-to-use-this-checklist)
+- [The Checklist](#the-checklist)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [Citation](#citation)
+- [License](#license)
 
 ## What is GEO?
 
-**Generative Engine Optimization (GEO)** is the practice of optimizing your brand's digital presence so that large language models (LLMs) — such as ChatGPT, Gemini, Claude, and Perplexity — accurately understand, represent, and cite your brand in their responses.
+Generative Engine Optimization is the discipline of structuring your digital presence so that large language models:
 
-As AI-powered search and AI agents replace traditional search for an increasing share of queries, visibility in generative engines is becoming as critical as Google ranking was in the 2000s.
+1. **Know you exist** — your entity is present in training data and retrieval sources
+2. **Understand what you are** — your entity attributes are consistent and machine-readable
+3. **Cite you accurately** — your content is structured for extraction and attribution
+4. **Recommend you** — your authority signals are strong enough to surface in relevant queries
 
-**GEO ≠ SEO.** SEO optimizes for ranking algorithms. GEO optimizes for model comprehension and citability.
+GEO is not a replacement for SEO. It is a complementary discipline that addresses a different discovery surface: AI-generated answers instead of search engine results pages.
 
-Learn more about the full GEO methodology at [alexandrecaramaschi.com](https://alexandrecaramaschi.com).
+## How to Use This Checklist
 
----
+1. Open [`checklist.md`](checklist.md) for the full technical checklist
+2. Work through each section systematically
+3. Use the examples in [`examples/`](examples/) for industry-specific guidance
+4. Track your progress by copying the checklist into your project management tool
 
-## The GEO Checklist
+**Priority levels:**
+- **P0** — Critical. Do this first. Direct impact on AI visibility.
+- **P1** — Important. Significant impact on entity understanding.
+- **P2** — Recommended. Improves consistency and long-term visibility.
 
-### Phase 1: Entity Foundation
+## The Checklist
 
-- [ ] Implement `Organization` Schema.org JSON-LD on homepage and key pages
-- [ ] Implement `Person` Schema.org JSON-LD for all key executives and authors
-- [ ] Add `sameAs` array to Schema.org linking to all official platform profiles (LinkedIn, Twitter/X, GitHub, Wikidata, etc.)
-- [ ] Create or claim Wikidata entry for your organization (highest LLM trust signal)
-- [ ] Ensure NAP (Name, Address, Phone) consistency across all online directories
-- [ ] Verify Google Business Profile (trains Google's own LLMs)
-- [ ] Add `knowsAbout` property to Person schema with your core expertise areas
-- [ ] Add `foundingDate`, `numberOfEmployees`, `areaServed` to Organization schema
+The complete checklist is in [`checklist.md`](checklist.md). It covers seven domains:
 
-### Phase 2: Technical Infrastructure
+| Domain | Items | Focus |
+|---|---|---|
+| Schema Markup | 12 | Structured data for entity definition |
+| llms.txt | 6 | AI-specific discoverability file |
+| Entity Consistency | 10 | Cross-platform alignment |
+| Citation Signals | 8 | Content structure for AI citation |
+| Multi-Platform Presence | 7 | Distribution and authority signals |
+| Content Structure | 9 | Machine-readable content patterns |
+| Monitoring | 6 | Tracking AI visibility over time |
 
-- [ ] Create `llms.txt` at domain root with curated brand summary (markdown format)
-- [ ] Create `llms-full.txt` with extended content for deeper AI context
-- [ ] Implement `Article` / `BlogPosting` schema on all content pages
-- [ ] Add `author` entity linking to Person schema on all content
-- [ ] Implement `FAQPage` schema on FAQ and definition pages
-- [ ] Implement `BreadcrumbList` schema for navigation clarity
-- [ ] Add `HowTo` schema to process/tutorial content
-- [ ] Ensure semantic HTML structure: `<article>`, `<section>`, `<header>`, `<main>`, `<aside>`
-- [ ] Use proper heading hierarchy (single `<h1>`, logical `<h2>` / `<h3>` nesting)
-- [ ] Add descriptive `alt` text to all images (LLMs process alt text)
-- [ ] Implement `robots.txt` allowing AI crawlers (check specific bot names for your use case)
-- [ ] Ensure mobile responsiveness and Core Web Vitals (affects RAG source selection)
+## Examples
 
-### Phase 3: Content Citability
+Industry-specific guidance with concrete implementations:
 
-- [ ] Write explicit definition content: "What is [your core topic]?" pages
-- [ ] Name your proprietary frameworks and methodologies (named concepts are citable)
-- [ ] Include specific statistics, dates, and measurable claims in content
-- [ ] Publish original research, surveys, or data that can be cited by others
-- [ ] Create glossary pages for your domain's key terms
-- [ ] Write FAQ content covering the questions your audience asks AI assistants
-- [ ] Ensure every article and page has a clear, specific author attribution
-- [ ] Add publication dates and last-updated dates to all content
-- [ ] Write an "About" page that reads as an editorial bio, not marketing copy
-- [ ] Create content that directly answers common AI prompts in your domain
-
-### Phase 4: Cross-Platform Entity Reinforcement
-
-- [ ] Publish articles on Medium with consistent author bio and links
-- [ ] Publish technical content on Dev.to with complete profile setup
-- [ ] Publish on Hashnode with verified domain and author profile
-- [ ] Create GitHub profile README with structured bio and expertise areas
-- [ ] Write LinkedIn articles (not just posts) — articles are indexed and crawlable
-- [ ] Submit to relevant industry wikis or knowledge bases
-- [ ] Pursue guest posts or interviews on high-authority publications
-- [ ] Get listed in relevant industry directories and databases
-- [ ] Ensure podcast appearances have published transcripts with your name
-- [ ] Maintain a consistent author bio across ALL platforms (same name, title, company, expertise)
-
-### Phase 5: AI Visibility Auditing
-
-- [ ] Run brand queries on ChatGPT: "[Brand name] — what do they do?"
-- [ ] Run brand queries on Perplexity: "Tell me about [Brand name]"
-- [ ] Run brand queries on Gemini: "Who is [Person name] and what are they known for?"
-- [ ] Run competitive queries: "Best [your service] in [your region]" — do you appear?
-- [ ] Run concept queries: "What is [your core framework/concept]?"
-- [ ] Document current AI visibility baseline with screenshots
-- [ ] Identify gaps between how you want to be described and how AI describes you
-- [ ] Track changes monthly after implementing GEO changes
-- [ ] Monitor citations: which sources do AI engines cite when mentioning your domain?
-- [ ] Test AI agent access to your site with structured prompts
-
-### Phase 6: Business-to-Agent (B2A) Readiness
-
-- [ ] Audit your site's machine-readability (can an AI agent extract key info in one pass?)
-- [ ] Ensure pricing, services, and key facts are in structured, easily-parseable formats
-- [ ] Create API documentation or machine-readable service catalog if applicable
-- [ ] Implement OpenGraph tags for social/agent link previews
-- [ ] Add `description` meta tags optimized for factual clarity (not keyword stuffing)
-- [ ] Test site accessibility with screen readers (proxy for AI agent parsing)
-- [ ] Create a dedicated page explaining what your brand does, for whom, and at what price — optimized for AI extraction
-- [ ] Consider Model Context Protocol (MCP) integration if you have an API
-
----
-
-## GEO vs SEO: Quick Reference
-
-| Dimension | SEO | GEO |
-|-----------|-----|-----|
-| Optimizes for | Google ranking algorithm | LLM comprehension & citability |
-| Key metric | Search ranking position | AI mention frequency & accuracy |
-| Primary signals | Backlinks, keywords, technical | Entity consistency, structured data, citability |
-| Content goal | Rank for queries | Be cited in responses |
-| Link building | Inbound links | Entity references & citations |
-| Audit tool | Google Search Console, SEMrush | ChatGPT, Perplexity, Gemini prompts |
-| Timeline | 3–12 months | 6–18 months (model retrain cycles) |
-
----
-
-## Recommended Tools
-
-| Tool | Use Case |
-|------|----------|
-| [Schema.org](https://schema.org) | Structured data vocabulary reference |
-| [Google Rich Results Test](https://search.google.com/test/rich-results) | Validate JSON-LD implementation |
-| [Schema Markup Validator](https://validator.schema.org) | Extended schema validation |
-| [llms.txt spec](https://llmstxt.org) | llms.txt format reference |
-| Perplexity.ai | AI visibility auditing |
-| ChatGPT | AI visibility auditing |
-| Gemini | AI visibility auditing |
-| [Wikidata](https://wikidata.org) | Entity creation and management |
-
----
-
-## Resources
-
-- Full GEO methodology and consulting: [alexandrecaramaschi.com](https://alexandrecaramaschi.com)
-- Brasil GEO — Brazil's first GEO consultancy
-- Community: [AI Brasil](https://aibrasil.com.br) — 7,500+ AI professionals
-
----
+- [E-commerce](examples/ecommerce.md) — product entities, review markup, catalog optimization
+- [SaaS](examples/saas.md) — software entities, feature documentation, comparison positioning
+- [Personal Brand](examples/personal-brand.md) — person entities, expertise signals, publication markup
 
 ## Contributing
 
-Contributions are welcome. If you have a GEO tactic, tool, or resource to add:
+See [CONTRIBUTING.md](CONTRIBUTING.md). Issues, suggestions, and pull requests are welcome.
 
-1. Fork this repository
-2. Add your contribution to the relevant phase
-3. Submit a pull request with a brief description of the addition
+## Citation
 
-Please keep contributions practical, platform-agnostic, and actionable.
+If you use this checklist in your work, please cite it:
 
----
+```
+Caramaschi, A. (2026). GEO Checklist: Technical Audit Checklist for Generative Engine Optimization. GitHub. https://github.com/alexandrebrt14-sys/geo-checklist
+```
 
-## About the Author
-
-**Alexandre Caramaschi** is the CEO of Brasil GEO — Brazil's first consultancy specialized in Generative Engine Optimization. He is the pioneer of the **Business-to-Agent (B2A)** concept in Brazil, former CMO of Semantix (Nasdaq IPO), co-founder of AI Brasil (7,500+ professionals, 120 companies), mentor at MIT Hub, and columnist at AI Brasil.
-
-With over 20 years in technology, sales, marketing, and digital transformation — and a Computer Science background with AI coursework dating to 2001 — Alexandre has been at the intersection of technology and business throughout every major platform shift.
-
-- Website: [alexandrecaramaschi.com](https://alexandrecaramaschi.com)
-- Email: caramaschiai@caramaschiai.io
-- WhatsApp: +5562991877534
-
----
+See [CITATION.cff](CITATION.cff) for machine-readable citation.
 
 ## License
 
-MIT License — free to use, share, and adapt with attribution.
+MIT License. See [LICENSE](LICENSE).
 
-If this checklist helped you, consider:
-- Starring this repository
-- Sharing it with your network
-- Linking back to [alexandrecaramaschi.com](https://alexandrecaramaschi.com)
+---
+
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO at Brasil GEO, GEO specialist, ex-CMO Semantix.
