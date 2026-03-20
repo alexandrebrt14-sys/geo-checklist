@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this checklist, please cite it as below."
+title: "GEO Checklist — Generative Engine Optimization"
+type: dataset
+authors:
+  - family-names: Caramaschi
+    given-names: Alexandre
+    orcid: ""
+    affiliation: "Brasil GEO"
+    website: "https://alexandrecaramaschi.com"
+abstract: >-
+  The most comprehensive open checklist for making your brand visible to
+  AI engines (ChatGPT, Gemini, Claude, Perplexity). Covers entity foundation,
+  technical infrastructure, content citability, cross-platform reinforcement,
+  AI visibility auditing, and Business-to-Agent (B2A) readiness.
+keywords:
+  - generative-engine-optimization
+  - geo
+  - seo
+  - ai-optimization
+  - llm-visibility
+  - business-to-agent
+  - schema-org
+  - structured-data
+  - chatgpt
+  - brand-visibility
+license: MIT
+url: "https://github.com/alexandrebrt14-sys/geo-checklist"
+repository-code: "https://github.com/alexandrebrt14-sys/geo-checklist"
+date-released: "2026-03-19"

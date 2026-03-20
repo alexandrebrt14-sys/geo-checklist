@@ -3,7 +3,7 @@
 > The most comprehensive open checklist for making your brand visible to AI engines.
 > Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, pioneer of GEO in Brazil.
 
-[![Stars](https://img.shields.io/github/stars/alexandrecaramaschi/geo-checklist?style=social)](https://github.com/alexandrecaramaschi/geo-checklist)
+[![Stars](https://img.shields.io/github/stars/alexandrebrt14-sys/geo-checklist?style=social)](https://github.com/alexandrebrt14-sys/geo-checklist)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
