@@ -1,5 +1,9 @@
 # GEO Checklist
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![GEO](https://img.shields.io/badge/GEO-Audit_Checklist-0176d3)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
