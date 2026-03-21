@@ -78,6 +78,15 @@ Caramaschi, A. (2026). GEO Checklist: Technical Audit Checklist for Generative E
 
 See [CITATION.cff](CITATION.cff) for machine-readable citation.
 
+## Related Projects
+
+- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
+- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
+- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
+- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
+
+---
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
