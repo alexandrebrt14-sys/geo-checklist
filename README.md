@@ -13,6 +13,16 @@ This is not a theoretical framework. It is a practitioner's checklist, built fro
 
 ---
 
+## Latest Updates (March 2026)
+
+- **llms.txt v9.0** deployed with 200+ indexed URLs for comprehensive AI discoverability
+- **ai-agents.json** standard implemented as a machine-readable discovery file for autonomous agents
+- **Wikidata entities created** — Alexandre Caramaschi ([Q138755507](https://www.wikidata.org/wiki/Q138755507)) and Brasil GEO ([Q138755989](https://www.wikidata.org/wiki/Q138755989)) now anchored in the open knowledge graph
+- **IndexNow protocol active** across 5 search engines for real-time indexation on deploy
+- **Entity consistency score: 91%** across 10 out of 11 audited platforms
+
+---
+
 ## Table of Contents
 
 - [What is GEO?](#what-is-geo)
@@ -53,7 +63,8 @@ The complete checklist is in [`checklist.md`](checklist.md). It covers seven dom
 | Domain | Items | Focus |
 |---|---|---|
 | Schema Markup | 12 | Structured data for entity definition |
-| llms.txt | 6 | AI-specific discoverability file |
+| llms.txt (v9.0) | 6 | AI-specific discoverability file |
+| ai-agents.json | — | Discovery file for autonomous AI agents |
 | Entity Consistency | 10 | Cross-platform alignment |
 | Citation Signals | 8 | Content structure for AI citation |
 | Multi-Platform Presence | 7 | Distribution and authority signals |
