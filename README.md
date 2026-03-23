@@ -19,7 +19,7 @@ This is not a theoretical framework. It is a practitioner's checklist, built fro
 - **ai-agents.json** standard implemented as a machine-readable discovery file for autonomous agents
 - **Wikidata entities created** — Alexandre Caramaschi ([Q138755507](https://www.wikidata.org/wiki/Q138755507)) and Brasil GEO ([Q138755989](https://www.wikidata.org/wiki/Q138755989)) now anchored in the open knowledge graph
 - **IndexNow protocol active** across 5 search engines for real-time indexation on deploy
-- **Entity consistency score: 91%** across 10 out of 11 audited platforms
+- **Entity consistency score: 80%** across audited platforms
 
 ---
 
