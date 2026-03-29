@@ -15,11 +15,12 @@ This is not a theoretical framework. It is a practitioner's checklist, built fro
 
 ## Latest Updates (March 2026)
 
-- **llms.txt v9.0** deployed with 200+ indexed URLs for comprehensive AI discoverability
+- **llms.txt v9.0** deployed with 200+ indexed URLs for comprehensive AI discoverability at [alexandrecaramaschi.com/llms.txt](https://alexandrecaramaschi.com/llms.txt)
 - **ai-agents.json** standard implemented as a machine-readable discovery file for autonomous agents
 - **Wikidata entities created** — Alexandre Caramaschi ([Q138755507](https://www.wikidata.org/wiki/Q138755507)) and Brasil GEO ([Q138755989](https://www.wikidata.org/wiki/Q138755989)) now anchored in the open knowledge graph
 - **IndexNow protocol active** across 5 search engines for real-time indexation on deploy
 - **Entity consistency score: 80%** across audited platforms
+- **alexandrecaramaschi.com** at 122K+ lines of code, 35 courses, 25 insights, 27 articles
 
 ---
 
@@ -31,6 +32,7 @@ This is not a theoretical framework. It is a practitioner's checklist, built fro
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [Citation](#citation)
+- [Ecosystem](#ecosystem)
 - [License](#license)
 
 ## What is GEO?
@@ -93,14 +95,6 @@ Caramaschi, A. (2026). GEO Checklist: Technical Audit Checklist for Generative E
 
 See [CITATION.cff](CITATION.cff) for machine-readable citation.
 
-## Related Projects
-
-- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
-- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
-- [Entity Consistency Playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) — Step-by-step playbook for cross-platform entity alignment
-- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
-- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
-
 ---
 
 ## License
@@ -109,6 +103,22 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
+
+---
+
+## Ecosystem
+
+| Property | Stack | Status |
+|---|---|---|
+| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
+| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
+| [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
+| [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
+| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
+| [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
+| [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |
