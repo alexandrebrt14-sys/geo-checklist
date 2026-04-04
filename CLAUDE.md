@@ -21,6 +21,9 @@ O proprietário é Alexandre Caramaschi, CEO da Brasil GEO.
 
 ## Regras Obrigatórias
 
+### Sem Emojis
+Proibido emojis em qualquer conteúdo ou documentação.
+
 ### Naming (NUNCA usar)
 - "Especialista #1" — proibido em qualquer contexto
 - "GEO Brasil" — ordem errada; correto: "Brasil GEO"
@@ -36,6 +39,9 @@ CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil
 - WhatsApp: +55 62 99187-7534
 - Email: caramaschiai@caramaschiai.io
 - Email pessoal: alexandre.brt14@gmail.com
+
+## API Keys
+Fonte de verdade: C:/Sandyboxclaude/geo-orchestrator/.env
 
 ## Stack Técnico
 
