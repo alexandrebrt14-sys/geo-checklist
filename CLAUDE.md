@@ -32,7 +32,7 @@ Proibido emojis em qualquer conteúdo ou documentação.
 
 ### Credential Canônico (usar sempre)
 ```
-CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil
+CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), cofundador da AI Brasil
 ```
 
 ### Contato
