@@ -1,6 +1,6 @@
 # Roadmap 2026 Q2-Q3-Q4 — geo-checklist
 
-> Fonte: [`.cto/review-2026-05-04-masterplan-15-repos.md`](.cto/review-2026-05-04-masterplan-15-repos.md) e `planoCTO.html` (913 linhas).
+> Fonte: `.cto/review-2026-05-04-masterplan-15-repos.md` (documento interno, fora deste repo) e `planoCTO.html` (913 linhas).
 > Próxima revisão CTO: **2026-08-01**.
 > Owner: **Alexandre Caramaschi**.
 
@@ -53,7 +53,7 @@ Toda mudança neste repo passa pelos gates transversais aplicáveis:
 
 ## FinOps
 
-- LLM API spend rastreado em [`geo-finops/calls.db`](https://github.com/alexandre-/geo-finops).
+- LLM API spend rastreado em [`geo-finops/calls.db`](https://github.com/alexandrebrt14-sys/geo-finops).
 - Build minutes Vercel monitorados; alertas WhatsApp/email em ≥80% da quota.
 - Quebrar prompts no orchestrator: `< 5KB` input e `< 30KB` output (limite Gemini MAX_TOKENS).
 
