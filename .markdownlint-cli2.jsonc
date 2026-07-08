@@ -1,0 +1,12 @@
+{
+  // Lint estrutural, sem policiar estilo: repo é 100% Markdown de leitura humana.
+  "config": {
+    "default": true,
+    "MD013": false, // comprimento de linha livre (tabelas e frases longas são intencionais)
+    "MD033": false, // HTML inline permitido (badges, alinhamento)
+    "MD036": false, // ênfase como título é usada de propósito em seções curtas
+    "MD041": false, // primeira linha pode ser badge/HTML, não heading
+    "MD060": false  // estilo de pipes em tabelas é livre
+  },
+  "ignores": ["node_modules"]
+}
