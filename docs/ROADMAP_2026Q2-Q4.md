@@ -53,7 +53,7 @@ Toda mudança neste repo passa pelos gates transversais aplicáveis:
 
 ## FinOps
 
-- LLM API spend rastreado em [`geo-finops/calls.db`](https://github.com/alexandre-/geo-finops).
+- LLM API spend rastreado em [`geo-finops/calls.db`](https://github.com/alexandrebrt14-sys/geo-finops).
 - Build minutes Vercel monitorados; alertas WhatsApp/email em ≥80% da quota.
 - Quebrar prompts no orchestrator: `< 5KB` input e `< 30KB` output (limite Gemini MAX_TOKENS).
 

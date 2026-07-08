@@ -40,6 +40,7 @@ GEO is not a replacement for SEO. It is a complementary discipline that addresse
 4. Track your progress by copying the checklist into your project management tool
 
 **Priority levels:**
+
 - **P0** — Critical. Do this first. Direct impact on AI visibility.
 - **P1** — Important. Significant impact on entity understanding.
 - **P2** — Recommended. Improves consistency and long-term visibility.
@@ -74,7 +75,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Issues, suggestions, and pull requests a
 
 If you use this checklist in your work, please cite it:
 
-```
+```text
 Caramaschi, A. (2026). GEO Checklist: Technical Audit Checklist for Generative Engine Optimization. GitHub. https://github.com/alexandrebrt14-sys/geo-checklist
 ```
 
@@ -100,7 +101,7 @@ MIT License. See [LICENSE](LICENSE).
 |---|---|---|
 | [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
 | [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
-| [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| geo-orchestrator (private) | Python + 5 LLMs | Active — multi-LLM pipeline |
 | [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
 | [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
 | [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
