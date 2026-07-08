@@ -1,26 +1,12 @@
 # GEO Checklist
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![GEO](https://img.shields.io/badge/GEO-Audit_Checklist-0176d3)
-![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![GEO](https://img.shields.io/badge/GEO-Audit_Checklist-0176d3)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A technical audit checklist for **Generative Engine Optimization (GEO)** — the practice of optimizing digital presence for visibility in AI-generated responses from ChatGPT, Gemini, Perplexity, Copilot, and other generative engines.
 
 This is not a theoretical framework. It is a practitioner's checklist, built from real audits across e-commerce, SaaS, personal brands, and service businesses.
-
----
-
-## Latest Updates (March 2026)
-
-- **llms.txt v9.0** deployed with 200+ indexed URLs for comprehensive AI discoverability at [alexandrecaramaschi.com/llms.txt](https://alexandrecaramaschi.com/llms.txt)
-- **ai-agents.json** standard implemented as a machine-readable discovery file for autonomous agents
-- **Wikidata entities created** — Alexandre Caramaschi ([Q138755507](https://www.wikidata.org/wiki/Q138755507)) and Brasil GEO ([Q138755989](https://www.wikidata.org/wiki/Q138755989)) now anchored in the open knowledge graph
-- **IndexNow protocol active** across 5 search engines for real-time indexation on deploy
-- **Entity consistency score: 80%** across audited platforms
-- **alexandrecaramaschi.com** at 122K+ lines of code, 35 courses, 25 insights, 27 articles
 
 ---
 
@@ -65,8 +51,7 @@ The complete checklist is in [`checklist.md`](checklist.md). It covers seven dom
 | Domain | Items | Focus |
 |---|---|---|
 | Schema Markup | 12 | Structured data for entity definition |
-| llms.txt (v9.0) | 6 | AI-specific discoverability file |
-| ai-agents.json | — | Discovery file for autonomous AI agents |
+| llms.txt | 6 | AI-specific discoverability file |
 | Entity Consistency | 10 | Cross-platform alignment |
 | Citation Signals | 8 | Content structure for AI citation |
 | Multi-Platform Presence | 7 | Distribution and authority signals |
