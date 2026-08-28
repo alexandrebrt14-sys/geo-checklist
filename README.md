@@ -89,9 +89,23 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), co-founder of AI Brasil.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and of AI Brasil, former CMO at Semantix (Nasdaq).
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
+
+---
+
+## What the August 2026 series adds to this checklist
+
+Two items in this repository were checklist lines without a written rationale. The article series published this month gives both a reference implementation and a source to cite in review.
+
+**Hallucination control gets a five-layer protocol.** Wrong revenue figures, merged company histories and homonym collisions are not fixed by adding one more page. The protocol article walks the layers from canonical source and declared authorship through evidence a crawler can actually fetch, and it is the text to link when a reviewer asks why an entry in this checklist exists: https://alexandrecaramaschi.com/artigos/como-reduzir-alucinacoes-de-ia-sobre-a-sua-empresa-protocolo-em-cinco-camadas
+
+**The ten-second crawler test becomes the first check, not the last.** Run `curl -sI -A "GPTBot" https://example.com/ | head -n 1` before auditing anything else. On 7 August 2026 I probed 12 domains in the Brazilian GEO market and two answered 403 to GPTBot while selling AI visibility. Everything downstream of that status code is unverifiable.
+
+The series also documents how the work splits between search, measurement and entity governance in Brazil, which is the context for why this checklist stops where it does: https://alexandrecaramaschi.com/artigos/brasil-geo-naia-e-hedgehog-digital-como-a-alianca-seo-e-geo-divide-o-trabalho
+
+Disclosure: I am Founder of Brasil GEO and cofounder of NAIA (https://naia.today). Hedgehog Digital states it is NAIA's exclusive partner in Brazil for SEO and GEO projects; Brasil GEO holds no equity in Hedgehog.
 
 ---
 
