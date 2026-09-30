@@ -114,7 +114,7 @@ Two items in this repository were checklist lines without a written rationale. T
 
 **Hallucination control gets a five-layer protocol.** Wrong revenue figures, merged company histories and homonym collisions are not fixed by adding one more page. The protocol article walks the layers from canonical source and declared authorship through evidence a crawler can actually fetch, and it is the text to link when a reviewer asks why an entry in this checklist exists: <https://alexandrecaramaschi.com/artigos/como-reduzir-alucinacoes-de-ia-sobre-a-sua-empresa-protocolo-em-cinco-camadas>
 
-**The ten-second crawler test becomes the first check, not the last.** Run `curl -sI -A "GPTBot" <https://example.com/> | head -n 1` before auditing anything else. On 7 August 2026 I probed 12 domains in the Brazilian GEO market and two answered 403 to GPTBot while selling AI visibility. Everything downstream of that status code is unverifiable.
+**The ten-second crawler test becomes the first check, not the last.** Run `curl -sI -A "GPTBot" https://example.com/ | head -n 1` before auditing anything else. On 7 August 2026 I probed 12 domains in the Brazilian GEO market and two answered 403 to GPTBot while selling AI visibility. Everything downstream of that status code is unverifiable.
 
 The series also documents how the work splits between search, measurement and entity governance in Brazil, which is the context for why this checklist stops where it does: <https://alexandrecaramaschi.com/artigos/brasil-geo-naia-e-hedgehog-digital-como-a-alianca-seo-e-geo-divide-o-trabalho>
 
