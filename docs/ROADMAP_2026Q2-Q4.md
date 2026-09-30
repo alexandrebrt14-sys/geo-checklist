@@ -4,6 +4,14 @@
 > Próxima revisão CTO: **2026-08-01**.
 > Owner: **Alexandre Caramaschi**.
 
+## Estado em 30/09/2026
+
+- A onda Q3-W5 (versão 2026.2 com seção AEO e agentic commerce, janela de 01/09 a 15/09/2026) não foi entregue. Desde 08/07/2026 o repositório recebeu apenas commits de documentação, e a issue #2 continua aberta.
+- A revisão CTO marcada para 01/08/2026 não deixou registro neste repositório. Replanejar a onda para o Q4 ou encerrá-la é decisão do owner, e até lá as issues #1 e #2 ficam abertas como lembrete.
+- Segue aberta a issue #5, sobre a exposição pública deste roadmap interno e do histórico do `CLAUDE.md`.
+- O workflow `qualidade` falha na `main` desde a entrada do `GUIA_ESCRITA_HUMANIZADA.md` em 23/07/2026. O markdownlint reprovava as URLs nuas das fontes do guia e três do README, corrigidas em 30/09/2026 com colchetes angulares. O link-checker segue vermelho porque academic.oup.com responde 403 ao robô do lychee; resolver pede uma exclusão no workflow, que é decisão do owner.
+- O checklist tem 58 itens (19 P0, 23 P1, 16 P2), contados em `checklist.md` nesta data.
+
 ## Sumário
 
 - **Categoria:** spec-publica
@@ -47,7 +55,7 @@ Toda mudança neste repo passa pelos gates transversais aplicáveis:
 
 ## Disciplina de deploy
 
-- `landing-page-geo` no Vercel: máximo **2 pushes/dia** (build minutes ~$0,26/push).
+- `landing-page-geo`: teto de **6 deploys/dia**, elevado de 2 para 6 em 24/07/2026 como disciplina de agrupamento. Conferido contra a fatura em 31/08/2026, um push custa cerca de US$ 0,15, quase todo em minutos de GitHub Actions, que passaram a ser a métrica de controle.
 - Pre-push hook roda `next build` localmente; falhar localmente = abortar push.
 - Janelas com 2+ streams paralelos exigem revisão semanal de carga em segunda 09h BRT.
 

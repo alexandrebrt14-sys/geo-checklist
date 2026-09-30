@@ -17,6 +17,7 @@ This is not a theoretical framework. It is a practitioner's checklist, built fro
 - [The Checklist](#the-checklist)
 - [Examples](#examples)
 - [Contributing](#contributing)
+- [Maintenance](#maintenance)
 - [Citation](#citation)
 - [Ecosystem](#ecosystem)
 - [License](#license)
@@ -71,6 +72,16 @@ Industry-specific guidance with concrete implementations:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Issues, suggestions, and pull requests are welcome.
 
+## Maintenance
+
+`checklist.md` is the source of truth. The domain table above and the Summary Scorecard at the end of the checklist must agree; on 30 September 2026 both count 58 items (19 P0, 23 P1, 16 P2), and a pull request that adds or removes an item updates both.
+
+The `qualidade` workflow in `.github/workflows/qualidade.yml` runs markdownlint (rules in `.markdownlint-cli2.jsonc`) and the lychee link checker on every push to `main` and every pull request. It also runs every Monday at 09:00 UTC, so an external reference that dies is flagged within a week even when nobody touches the repository.
+
+The quarterly roadmap lives in [`docs/ROADMAP_2026Q2-Q4.md`](docs/ROADMAP_2026Q2-Q4.md), in Portuguese. Its only planned wave, a 2026.2 release with an AEO and agentic commerce section tracked in issue #2, had a 1 to 15 September 2026 window and has not shipped.
+
+Contributors who draft with AI agents should know that `CLAUDE.md`, `AGENTS.md` and `GEMINI.md` point those agents to the owner's writing standard, `DIRETRIZ_EDITORIAL.md` (version 4, 11 August 2026) with its companion `GUIA_ESCRITA_HUMANIZADA.md`. Both are in Portuguese and govern prose; checklist items stay in English, as `CONTRIBUTING.md` requires.
+
 ## Citation
 
 If you use this checklist in your work, please cite it:
@@ -89,7 +100,9 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and of AI Brasil, former CMO at Semantix (Nasdaq).
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).
+
+Alexandre Caramaschi is Chief Strategy Officer at Nuvini (Nasdaq: NVNI). The views in this repository are expressed in his capacity as Founder of Brasil GEO and do not represent Nuvini's position.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
 
@@ -99,13 +112,13 @@ MIT License. See [LICENSE](LICENSE).
 
 Two items in this repository were checklist lines without a written rationale. The article series published this month gives both a reference implementation and a source to cite in review.
 
-**Hallucination control gets a five-layer protocol.** Wrong revenue figures, merged company histories and homonym collisions are not fixed by adding one more page. The protocol article walks the layers from canonical source and declared authorship through evidence a crawler can actually fetch, and it is the text to link when a reviewer asks why an entry in this checklist exists: https://alexandrecaramaschi.com/artigos/como-reduzir-alucinacoes-de-ia-sobre-a-sua-empresa-protocolo-em-cinco-camadas
+**Hallucination control gets a five-layer protocol.** Wrong revenue figures, merged company histories and homonym collisions are not fixed by adding one more page. The protocol article walks the layers from canonical source and declared authorship through evidence a crawler can actually fetch, and it is the text to link when a reviewer asks why an entry in this checklist exists: <https://alexandrecaramaschi.com/artigos/como-reduzir-alucinacoes-de-ia-sobre-a-sua-empresa-protocolo-em-cinco-camadas>
 
-**The ten-second crawler test becomes the first check, not the last.** Run `curl -sI -A "GPTBot" https://example.com/ | head -n 1` before auditing anything else. On 7 August 2026 I probed 12 domains in the Brazilian GEO market and two answered 403 to GPTBot while selling AI visibility. Everything downstream of that status code is unverifiable.
+**The ten-second crawler test becomes the first check, not the last.** Run `curl -sI -A "GPTBot" <https://example.com/> | head -n 1` before auditing anything else. On 7 August 2026 I probed 12 domains in the Brazilian GEO market and two answered 403 to GPTBot while selling AI visibility. Everything downstream of that status code is unverifiable.
 
-The series also documents how the work splits between search, measurement and entity governance in Brazil, which is the context for why this checklist stops where it does: https://alexandrecaramaschi.com/artigos/brasil-geo-naia-e-hedgehog-digital-como-a-alianca-seo-e-geo-divide-o-trabalho
+The series also documents how the work splits between search, measurement and entity governance in Brazil, which is the context for why this checklist stops where it does: <https://alexandrecaramaschi.com/artigos/brasil-geo-naia-e-hedgehog-digital-como-a-alianca-seo-e-geo-divide-o-trabalho>
 
-Disclosure: I am Founder of Brasil GEO and cofounder of NAIA (https://naia.today). Hedgehog Digital states it is NAIA's exclusive partner in Brazil for SEO and GEO projects; Brasil GEO holds no equity in Hedgehog.
+Disclosure: I am Founder of Brasil GEO and co-founder of NAIA (<https://naia.today>). Hedgehog Digital states it is NAIA's exclusive partner in Brazil for SEO and GEO projects; Brasil GEO holds no equity in Hedgehog.
 
 ---
 
@@ -113,12 +126,13 @@ Disclosure: I am Founder of Brasil GEO and cofounder of NAIA (https://naia.today
 
 | Property | Stack | Status |
 |---|---|---|
-| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
-| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
-| geo-orchestrator (private) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — articles, free courses and the reference `llms.txt` |
+| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — Brasil GEO site and content portals |
+| geo-orchestrator (private) | Python + multi-LLM | Active — multi-LLM pipeline |
 | [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
 | [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
-| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
-| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + Python | Open-source — llms.txt templates, spec and validator |
+| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 61 GEO terms in 7 categories |
 | [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
+| [geo-audit-master-prompt](https://github.com/alexandrebrt14-sys/geo-audit-master-prompt) | Markdown | Open-source — GEO audit Master Prompt |
 | [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |

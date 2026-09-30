@@ -130,4 +130,4 @@ GEO is not a one-time project. AI responses change as models are updated.
 
 ---
 
-*Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO at Brasil GEO.*
+*Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).*
